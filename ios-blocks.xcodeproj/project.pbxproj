@@ -16,6 +16,8 @@
 		E93396B8155190C1008F8D68 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93396B7155190C1008F8D68 /* RootViewController.m */; };
 		E93396BB1551928B008F8D68 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93396BA1551928B008F8D68 /* TimerViewController.m */; };
 		E93396BE15519435008F8D68 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E93396BD15519434008F8D68 /* NSTimer+Blocks.m */; };
+		E93396C1155197CA008F8D68 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = E93396C0155197CA008F8D68 /* UIActionSheet+Blocks.m */; };
+		E93396C415519D9B008F8D68 /* ActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93396C315519D9B008F8D68 /* ActionSheetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		E93396BA1551928B008F8D68 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		E93396BC15519434008F8D68 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
 		E93396BD15519434008F8D68 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		E93396BF155197CA008F8D68 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		E93396C0155197CA008F8D68 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		E93396C215519D9B008F8D68 /* ActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetViewController.h; sourceTree = "<group>"; };
+		E93396C315519D9B008F8D68 /* ActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 				E93396A51551909D008F8D68 /* Supporting Files */,
 				E93396BC15519434008F8D68 /* NSTimer+Blocks.h */,
 				E93396BD15519434008F8D68 /* NSTimer+Blocks.m */,
+				E93396BF155197CA008F8D68 /* UIActionSheet+Blocks.h */,
+				E93396C0155197CA008F8D68 /* UIActionSheet+Blocks.m */,
 			);
 			path = "ios-blocks";
 			sourceTree = "<group>";
@@ -109,6 +117,8 @@
 				E93396B7155190C1008F8D68 /* RootViewController.m */,
 				E93396B91551928B008F8D68 /* TimerViewController.h */,
 				E93396BA1551928B008F8D68 /* TimerViewController.m */,
+				E93396C215519D9B008F8D68 /* ActionSheetViewController.h */,
+				E93396C315519D9B008F8D68 /* ActionSheetViewController.m */,
 			);
 			name = Sample;
 			sourceTree = "<group>";
@@ -179,6 +189,8 @@
 				E93396B8155190C1008F8D68 /* RootViewController.m in Sources */,
 				E93396BB1551928B008F8D68 /* TimerViewController.m in Sources */,
 				E93396BE15519435008F8D68 /* NSTimer+Blocks.m in Sources */,
+				E93396C1155197CA008F8D68 /* UIActionSheet+Blocks.m in Sources */,
+				E93396C415519D9B008F8D68 /* ActionSheetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

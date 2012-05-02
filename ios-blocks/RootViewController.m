@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 
 #import "TimerViewController.h"
+#import "ActionSheetViewController.h"
 
 @interface RootViewController () {
     NSArray* _items;
@@ -22,7 +23,7 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
-        _items = [[NSArray arrayWithObjects:@"NSTimer", nil] retain];
+        _items = [[NSArray arrayWithObjects:@"NSTimer", @"UIActionSheet", nil] retain];
     }
     return self;
 }
@@ -122,8 +123,11 @@
     UIViewController* controller;
     if ([item isEqualToString:@"NSTimer"]) {
         controller = [[[TimerViewController alloc] init] autorelease];
-        [self.navigationController pushViewController:controller animated:YES];
     }
+    else if ([item isEqualToString:@"UIActionSheet"]) {
+        controller = [[[ActionSheetViewController alloc] init] autorelease];
+    }
+    [self.navigationController pushViewController:controller animated:YES];
 
     // Navigation logic may go here. Create and push another view controller.
     /*
